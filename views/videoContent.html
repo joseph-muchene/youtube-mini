@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube</title>
+    <link
+      rel="shortcut icon"
+      href="../images/YouTube-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <div class="yt-top">
+      <div id="logo" class="logo">
+        <img src="../images/youtube.png" alt="" />
+      </div>
+      <div class="search-box">
+        <input type="search" placeholder="search" />
+      </div>
+      <div class="icons-side">
+        <div class="icon-1">
+          <img src="../icons/video.svg" alt="" srcset="" />
+        </div>
+        <div class="icon-2">
+          <img src="../icons/menu.svg" alt="" srcset="" />
+        </div>
+        <div class="icon-3">
+          <img src="../icons/notification.svg" alt="" srcset="" />
+        </div>
+        <div class="icon-4 avatar">
+          <img src="../images/youtube.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+
+    <main class="container-video">
+      <div class="box-side-content">
+        <div class="box-overide">
+          <video class="vid" controls src="../videos/julia.mp4"></video>
+          <div class="vid-content" id="vid-con"></div>
+        </div>
+
+        <!-- icons -->
+
+        <div class="box-icons">
+          <p>
+            <img src="../icons/like.svg" alt="" srcset="" />
+            122K
+          </p>
+          <p>
+            <img src="../icons/dislike.svg" alt="" srcset="" />
+            Dislike
+          </p>
+          <p>
+            <img src="../icons/20140637941540882615.svg" alt="" srcset="" />
+            share
+          </p>
+          <p>
+            <img src="../icons/scissors-solid.svg" alt="" srcset="" />
+            clip
+          </p>
+          <p>...</p>
+        </div>
+      </div>
+
+      <div class="box-side-related" id="box-side-related">
+        <div class="video-info" id="video-info">
+       
+        </div>
+        <div class="box-video" id="box-vid"></div>
+      </div>
+    </main>
+    <script src="../js/video.js"></script>
+  </body>
+</html>
